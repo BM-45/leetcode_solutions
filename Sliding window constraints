@@ -1,0 +1,13 @@
+Constraints and Limitations
+Monotonic property requirement:
+The varying size sliding window technique works best when the problem exhibits a monotonic property. This means that if a narrower window is invalid, expanding it will not make it valid, and if a wider window is valid, contracting it will not make it invalid3.
+Optimization problems:
+It's particularly suited for optimization problems like finding the longest or shortest subarray/substring that meets certain criteria3.
+Contiguous elements:
+The technique is designed for problems involving contiguous elements in an array or string. It may not be suitable for problems requiring non-contiguous selections1.
+Problem-specific applicability:
+Not all problems that seem suitable at first glance can be solved using this technique. It's important to verify that the problem satisfies the necessary conditions3.
+Context preservation:
+When dealing with large datasets, especially in natural language processing tasks, maintaining context across window boundaries can be challenging2.
+Performance considerations:
+While generally efficient, for very large datasets or in scenarios requiring real-time processing of high-dimensional data (like in computer vision), the performance might still be a limiting factor1.
